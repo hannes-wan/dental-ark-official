@@ -1,20 +1,70 @@
 # Dental Ark
 
-A local-first dental clinic system for front desk, charting, billing, images, and backups.
+**Everything your front desk and operatory need. On your computer. No monthly bill.**
 
-Product page: https://hannes-software.com/dental-ark/
-Downloads: https://hannes-software.com/dental-ark/#downloads
-Latest release: https://github.com/hannes-wan/dental-ark-official/releases/tag/v0.1.1
+Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required. No SaaS subscription. $119 once.
+
+[Website](https://hannes-software.com/dental-ark/) · [Download](https://hannes-software.com/dental-ark/download/) · [Help](https://hannes-software.com/dental-ark/help/) · [Latest release](https://github.com/hannes-wan/dental-ark-official/releases/tag/v0.1.1)
+
+## The problem it solves
+
+**A small dental clinic should not rent its own patient records forever.**
+
+ABC and similar platforms charge monthly, require internet, and lock your patient data on someone else's server. Dental Ark puts the clinic's patient records, appointments, billing, and images on your own computer — where you control them, back them up, and never pay a monthly fee.
+
+## Why you should try it
+
+- You run a small clinic and want patients, appointments, visits, billing, images, and backups in one local system.
+- You do not want another monthly cloud bill just to run the front desk and operatory.
+- You want clinic-owned records that keep working when the internet does not.
+
+## What makes it strong
+
+### One price. Forever.
+
+- Community edition is free to evaluate with up to 50 patients. Professional is $119 — once. Not per month, not per year.
+- Team bundle is $249 for three seats in one clinic. No per-user fees, no annual renewals, no surprise price changes.
+- Compare: cloud dental systems charge ¥200-500 per month. Over 3 years, that's ¥7,200-18,000. Dental Ark Professional is $119 total.
+
+### Works offline. Always.
+
+- Internet goes down? Dental Ark keeps running. Patient records, appointments, billing — all local. No "connecting to server" spinner while a patient waits at the front desk.
+- Data lives in local SQLite. Images stay in your application data folder. You own the files.
+- Manual backup creates a complete zip with database, images, config, and manifest. Copy it to a USB drive, external disk, or network folder.
+
+### Built for dental clinics, not adapted from general practice
+
+- FDI tooth charting is native, not an afterthought. Mark conditions per tooth, attach images, and link treatment to specific teeth across visits.
+- Appointment → arrival → treatment → record → bill → follow-up: the natural dental visit flow is built into the UI, not hidden behind menus.
+- Front desk view and dentist view show different information — reception sees the queue and schedule, dentists see patient history and tooth records.
+
+### Patient data stays under your control
+
+- No cloud server has your patient database. No third party processes your billing data. No "terms of service" can change how you access your own records.
+- Export patient records as PDF. Export billing data as CSV. Your data is portable — no vendor lock-in.
+- Audit logs track record changes. Drafts → confirmed → archived — every stage is visible. Patient records can't be silently overwritten.
+
+## What you can do with it
+
+- **Patient registration and appointment desk** — Register new patients in seconds. Schedule, reschedule, and track appointments. The daily queue shows who's arriving, waiting, and in treatment — your front desk always knows what's happening.
+- **Dental records with FDI tooth charting** — Document every visit with tooth-level detail. Mark conditions per tooth, attach intraoral images, write treatment notes, and track history across visits. Records can be drafted, confirmed, and amended with audit trails.
+- **Billing and financial tracking** — Create itemized bills, record payments (cash, card, transfer), track unpaid balances, and export billing summaries. No percentage fees on transactions — you keep what you charge.
 
 ## Screenshots
+
+### Front desk queue
 
 ![Front desk queue](https://hannes-software.com/assets/dental-ark/screenshots/front-desk-queue-a9128f7db0.webp)
 
 Arrival, waiting, treatment, checkout, balance, and follow-up work in one queue.
 
+### Patient index
+
 ![Patient index](https://hannes-software.com/assets/dental-ark/screenshots/patient-index-95782d9333.webp)
 
 Search, filter, and open patient files from a dense local clinic index.
+
+### Visit workbench
 
 ![Visit workbench](https://hannes-software.com/assets/dental-ark/screenshots/visit-workbench-c039a35a0c.webp)
 
@@ -22,89 +72,40 @@ Treatment context, clinical notes, dental charting, and visit workflow in one wo
 
 ## Download packages
 
-- [dental-ark-0.1.1-windows-x64-setup.exe](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-windows-x64-setup.exe)
+Latest GitHub release: **v0.1.1**
 
+- [dental-ark-0.1.1-windows-x64-setup.exe](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-windows-x64-setup.exe)
 - [dental-ark-0.1.1-linux-x64.AppImage](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.AppImage)
 - [dental-ark-0.1.1-linux-x64.deb](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.deb)
 - [dental-ark-0.1.1-linux-x64.rpm](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.rpm)
 
-## Claim boundary
+Prefer the product page if you want the full download notes, licensing details, and help articles:
 
-No insurance clearinghouse, cloud sync, e-prescribing, HIPAA certification, or enterprise multi-location claims.
+- https://hannes-software.com/dental-ark/download/
 
-## About this repository
+## Editions
 
-This repository is an official public proof surface for Dental Ark: product metadata, release notes, screenshots, and durable external links. The commercial desktop application source code is not published here.
+- **Community** — Free: Full clinic workflow for evaluation. Up to 50 patients, 200 visits, 200 appointments, and 100 images. Backups included. Key features: Patient registration and scheduling, Appointment calendar and daily queue, Visit records and treatment notes, FDI tooth charting, Billing and payment tracking.
+- **Professional** — $119 lifetime: Everything in Community, unlimited. One payment. No subscription. No cloud account needed. Key features: Unlimited patients, visits, and appointments, Medical record PDF export, Billing and statistics CSV export, Custom clinic branding on exports, Website checkout activation.
+- **Team** — $249 team / 3 seats: Three Professional seats for one clinic. Multiple computers, one system. Key features: Three machine-bound seats, All Professional features, One billing email, Website checkout activation.
 
-Hannes Software builds focused local-first desktop tools with one-time purchase positioning.
+## Good fit / not a good fit
+
+Good fit: Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required. No SaaS subscription. $119 once.
+
+Boundary: No insurance clearinghouse, cloud sync, e-prescribing, HIPAA certification, or enterprise multi-location claim. It is local clinic operations software.
+
+## Search terms this product is built around
+
+dental practice management software, dental appointment scheduling, offline dental software, dental billing software, dental patient records, FDI tooth chart, dental recall workflow, dentist appointment, dental appointment, how to make a dentist appointment
+
+## About Hannes Software
+
+Hannes Software builds focused local-first desktop tools: protocol diagnostics, music practice/transcription utilities, and small-clinic operations software. The pattern is simple: solve a narrow workflow well, keep data on the user’s machine, and sell with one-time pricing instead of a subscription treadmill.
 
 Website: https://hannes-software.com/
+Contact: hg3328762@qq.com
 
-## Legacy community README migrated from the previous public repository
+## Repository note
 
-Old repository metadata before deletion: `{"description":"Community Free offline dental clinic software: patient records, appointments, FDI charting, treatment notes, billing, images and backups.","homepageUrl":"https://hannes-software.com/dental-ark/","url":"https://github.com/hannes-wan/dental-ark"}`
-
-```markdown
-# Dental Ark
-
-**Offline dental clinic software for patient records, appointments, FDI charting, treatment notes, billing, images, and backups.**
-
-Dental Ark gives a small dental clinic one local desktop system for daily operations without a monthly cloud bill or browser dependency.
-
-[Website](https://hannes-software.com/dental-ark/) | [Download Community Free](https://hannes-software.com/dental-ark/download/) | [Help](https://hannes-software.com/dental-ark/help/) | [Contact](mailto:hg3328762@qq.com) | [Issues](https://github.com/hannes-wan/dental-ark/issues)
-
-![Dental Ark screenshot](https://hannes-software.com/assets/dental-ark/screenshots/front-desk-queue-a9128f7db0.webp)
-
-## What problem does Dental Ark solve?
-
-Many small clinics do not need a heavy cloud practice-management subscription just to run appointments, patient records, treatment notes, FDI charting, billing, images, and backups. Dental Ark keeps the clinic workflow local and understandable.
-
-## The result
-
-Use Dental Ark when you need a concrete result, not another generic tool window:
-
-- Patient records, patient index, and visit timeline.
-- FDI tooth charting, treatment notes, images, and clinical context.
-- Appointments, front desk queue, chair resources, and staff schedule.
-- Billing, finance ledger, follow-ups, and PDF export.
-
-## Who it is for
-
-- Solo and small dental clinics that want local control instead of monthly SaaS lock-in.
-- New practices that need front desk, operatory, charting, billing, and records in one desktop system.
-- Clinics in places where internet reliability, cost control, and local backups matter.
-
-## Product capabilities
-
-- Patient records, patient index, and visit timeline
-- FDI tooth charting, treatment notes, images, and clinical context
-- Appointments, front desk queue, chair resources, and staff schedule
-- Billing, finance ledger, follow-ups, and PDF export
-- Manual backup workflow for local operational control
-- Community Free download with an optional Professional path for the complete local clinic workflow
-
-## Screenshots
-
-| View | Preview |
-| --- | --- |
-| Front desk queue | ![Front desk queue](https://hannes-software.com/assets/dental-ark/screenshots/front-desk-queue-a9128f7db0.webp) |
-| Patient index | ![Patient index](https://hannes-software.com/assets/dental-ark/screenshots/patient-index-95782d9333.webp) |
-| Visit workbench | ![Visit workbench](https://hannes-software.com/assets/dental-ark/screenshots/visit-workbench-c039a35a0c.webp) |
-| Dental chart and images | ![Dental chart and images](https://hannes-software.com/assets/dental-ark/screenshots/dental-chart-assets-45ea502e88.webp) |
-
-## Community Free first
-
-- Start with the Community Free download and test the real workflow on your own files.
-- Use the product website when you need the full Professional desktop workflow.
-- Download Community Free: https://hannes-software.com/dental-ark/download/
-
-## Custom software work
-
-Hannes Software also builds specialist desktop and business software for teams that need strong engineering plus domain knowledge. We work across systems programming, web frontends, desktop runtimes, networking, protocols, USB/bus workflows, audio/video, music tooling, and medical business processes.
-
-If your workflow needs custom diagnostics, media tooling, clinic software, internal desktop apps, or another evidence-heavy product, contact **hg3328762@qq.com**.
-
-## Keywords
-
-offline dental software, dental clinic management, dental practice software, FDI tooth chart, no monthly fee dental software
-```
+This is the official public repository for Dental Ark downloads, screenshots, release links, and product information. The commercial desktop application source code is not published in this repository.
