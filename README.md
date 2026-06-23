@@ -22,6 +22,8 @@ Treatment context, clinical notes, dental charting, and visit workflow in one wo
 
 ## Download packages
 
+- [dental-ark-0.1.1-windows-x64-setup.exe](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-windows-x64-setup.exe)
+
 - [dental-ark-0.1.1-linux-x64.AppImage](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.AppImage)
 - [dental-ark-0.1.1-linux-x64.deb](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.deb)
 - [dental-ark-0.1.1-linux-x64.rpm](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.rpm)
