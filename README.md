@@ -4,7 +4,7 @@
 
 Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required. No SaaS subscription. $119 once.
 
-[Website](https://hannes-software.com/dental-ark/) · [Download](https://hannes-software.com/dental-ark/download/) · [Help](https://hannes-software.com/dental-ark/help/) · [Latest release](https://github.com/hannes-wan/dental-ark-official/releases/tag/v0.1.1)
+[Website](https://hannes-software.com/dental-ark/) · [Download](https://hannes-software.com/dental-ark/download/) · [Help](https://hannes-software.com/dental-ark/help/) · [Latest release](https://github.com/hannes-wan/dental-ark-official/releases/tag/v0.1.2)
 
 ## The problem it solves
 
@@ -54,30 +54,30 @@ ABC and similar platforms charge monthly, require internet, and lock your patien
 
 ### Front desk queue
 
-![Front desk queue](https://hannes-software.com/assets/dental-ark/screenshots/front-desk-queue-a9128f7db0.webp)
+![Front desk queue](https://hannes-software.com/assets/dental-ark/screenshots/front-desk-queue-d4b293effd.webp)
 
 Arrival, waiting, treatment, checkout, balance, and follow-up work in one queue.
 
 ### Patient index
 
-![Patient index](https://hannes-software.com/assets/dental-ark/screenshots/patient-index-95782d9333.webp)
+![Patient index](https://hannes-software.com/assets/dental-ark/screenshots/patient-index-c665650ed4.webp)
 
 Search, filter, and open patient files from a dense local clinic index.
 
 ### Visit workbench
 
-![Visit workbench](https://hannes-software.com/assets/dental-ark/screenshots/visit-workbench-c039a35a0c.webp)
+![Visit workbench](https://hannes-software.com/assets/dental-ark/screenshots/visit-workbench-9111d0a74d.webp)
 
 Treatment context, clinical notes, dental charting, and visit workflow in one workspace.
 
 ## Download packages
 
-Latest GitHub release: **v0.1.1**
+Latest GitHub release: **v0.1.2**
 
-- [dental-ark-0.1.1-windows-x64-setup.exe](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-windows-x64-setup.exe)
-- [dental-ark-0.1.1-linux-x64.AppImage](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.AppImage)
-- [dental-ark-0.1.1-linux-x64.deb](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.deb)
-- [dental-ark-0.1.1-linux-x64.rpm](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.1/dental-ark-0.1.1-linux-x64.rpm)
+- [dental-ark-0.1.2-windows-x64-setup.exe](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.2/dental-ark-0.1.2-windows-x64-setup.exe)
+- [dental-ark-0.1.2-linux-x64.AppImage](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.2/dental-ark-0.1.2-linux-x64.AppImage)
+- [dental-ark-0.1.2-linux-x64.deb](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.2/dental-ark-0.1.2-linux-x64.deb)
+- [dental-ark-0.1.2-linux-x64.rpm](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.2/dental-ark-0.1.2-linux-x64.rpm)
 
 Prefer the product page if you want the full download notes, licensing details, and help articles:
 
