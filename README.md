@@ -3,9 +3,11 @@
 [![Community Edition: Free](https://img.shields.io/badge/Community_Edition-Free-16a34a?style=for-the-badge)](https://hannes-software.com/dental-ark/download/)
 [![Windows](https://img.shields.io/badge/Windows-Desktop-2563eb?style=flat-square&logo=windows)](https://hannes-software.com/dental-ark/download/) [![Linux](https://img.shields.io/badge/Linux-Desktop-f59e0b?style=flat-square&logo=linux)](https://hannes-software.com/dental-ark/download/) [![Local first](https://img.shields.io/badge/Workflow-Local--first-7c3aed?style=flat-square)](https://hannes-software.com/dental-ark/)
 
-> Everything your front desk and operatory need. On your computer. No monthly bill.
+> Connect the front desk, operatory, ledger, images, follow-up, and restorable backups in one local clinic record.
 
-Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required. No SaaS subscription.
+Free Community Edition dental practice management software for local patients, appointments, FDI charting, billing and backups.
+
+Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required. No SaaS subscription. The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details.
 
 **Dental Ark Community Edition is free to download and use.** Full clinic workflow for evaluation. Up to 50 patients, 200 visits, 200 appointments, and 100 images. Backups included.
 
@@ -43,6 +45,11 @@ Document every visit with tooth-level detail. Mark conditions per tooth, attach 
 ### Billing and financial tracking
 
 Create itemized bills, record payments (cash, card, transfer), track unpaid balances, and export billing summaries. No percentage fees on transactions — you keep what you charge.
+
+### One price. Forever.
+
+- The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details. The optional Professional edition adds advanced workflows; see the product page for current access details. Not per month, not per year.
+- The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details. No per-user fees, no annual renewals, no surprise price changes.
 
 ### Works offline. Always.
 
@@ -144,6 +151,13 @@ No. Dental Ark installs on your Windows or Linux desktop. There is no cloud serv
 <summary><strong>Does Dental Ark include AI diagnosis?</strong></summary>
 
 No. Dental Ark is an administrative tool for patient records, appointments, billing, and documentation. It does not attempt to diagnose patients or recommend treatments. Clinical decisions remain entirely with the dentist.
+
+</details>
+
+<details>
+<summary><strong>What happens if I don't renew? Does my data get locked?</strong></summary>
+
+There is no renewal. The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details. The software continues working indefinitely. Your data is in local SQLite and image files on your computer — even if you uninstall the software, the data files remain.
 
 </details>
 
