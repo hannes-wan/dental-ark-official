@@ -5,7 +5,7 @@
 
 > Connect the front desk, operatory, ledger, images, follow-up, and restorable backups in one local clinic record.
 
-Free Community Edition dental practice management software for local patients, appointments, FDI charting, billing and backups.
+Free Community Edition dental clinic management software for local patients, appointments, FDI charting, billing, visit workflow, and restorable backups.
 
 Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required. No SaaS subscription. The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details.
 
