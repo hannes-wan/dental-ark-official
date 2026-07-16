@@ -7,7 +7,7 @@
 
 Free Community Edition dental clinic management software for local patients, appointments, FDI charting, billing, visit workflow, and restorable backups.
 
-Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required. No SaaS subscription. The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details.
+Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required.
 
 **Dental Ark Community Edition is free to download and use.** Full clinic workflow for evaluation. Up to 50 patients, 200 visits, 200 appointments, and 100 images. Backups included.
 
@@ -48,8 +48,7 @@ Create itemized bills, record payments (cash, card, transfer), track unpaid bala
 
 ### One price. Forever.
 
-- The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details. The optional Professional edition adds advanced workflows; see the product page for current access details. Not per month, not per year.
-- The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details. No per-user fees, no annual renewals, no surprise price changes.
+- Apple or Microsoft handles purchase and restore. There are no per-user fees, annual renewals, accounts, or activation codes.
 
 ### Works offline. Always.
 
@@ -155,13 +154,6 @@ No. Dental Ark is an administrative tool for patient records, appointments, bill
 </details>
 
 <details>
-<summary><strong>What happens if I don't renew? Does my data get locked?</strong></summary>
-
-There is no renewal. The Community edition is free. Optional paid editions add advanced workflows; see the product page for current access details. The software continues working indefinitely. Your data is in local SQLite and image files on your computer — even if you uninstall the software, the data files remain.
-
-</details>
-
-<details>
 <summary><strong>How do I back up my patient data?</strong></summary>
 
 Settings → Backup → Create Backup generates a complete zip file with your database, images, configuration, and manifest. Copy this file to an external drive, USB stick, or network location. Restore from any backup file on any computer.
@@ -172,6 +164,13 @@ Settings → Backup → Create Backup generates a complete zip file with your da
 <summary><strong>Can I export my patient records if I switch to another system?</strong></summary>
 
 Yes. Patient records can be exported as PDF. Billing data can be exported as CSV. There is no vendor lock-in — your data is in standard formats on your computer.
+
+</details>
+
+<details>
+<summary><strong>How does Dental Ark compare to cloud dental systems like ABC?</strong></summary>
+
+The Community edition is free, while the competing service uses a paid subscription; consult the vendor for current terms. Dental Ark does not include AI features or online patient booking.
 
 </details>
 
