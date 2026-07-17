@@ -7,26 +7,32 @@
 
 Free Community Edition dental clinic management software for local patients, appointments, FDI charting, billing, visit workflow, and restorable backups.
 
-Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required.
+Dental Ark gives a single dental clinic one local system for patients, appointments, visits, FDI tooth charting, treatment records, billing, images, follow-ups, PDF export, and manual backups. No internet required. The Community Edition is free. Optional licensed capabilities add advanced workflows; see the product page for current access details.
 
 **Dental Ark Community Edition is free to download and use.** Full clinic workflow for evaluation. Up to 50 patients, 200 visits, 200 appointments, and 100 images. Backups included.
 
 [Download Community Edition](https://hannes-software.com/dental-ark/download/) · [Product guide](https://hannes-software.com/dental-ark/) · [Help](https://hannes-software.com/dental-ark/help/) · [Report a bug](https://github.com/hannes-wan/dental-ark-official/issues/new?template=bug_report.yml)
 
-## Download Dental Ark 0.1.2
+## Download Dental Ark 0.1.3
 
 | Platform | Package | Use it when |
 | --- | --- | --- |
-| Linux x64 (APPIMAGE) | [dental-ark-0.1.2-linux-x64.AppImage](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.2/dental-ark-0.1.2-linux-x64.AppImage) | Portable Linux desktop package |
-| Linux x64 (DEB) | [dental-ark-0.1.2-linux-x64.deb](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.2/dental-ark-0.1.2-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
-| Linux x64 (RPM) | [dental-ark-0.1.2-linux-x64.rpm](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.2/dental-ark-0.1.2-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
-| Windows x64 | [dental-ark-0.1.2-windows-x64-setup.exe](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.2/dental-ark-0.1.2-windows-x64-setup.exe) | Guided Windows installer |
+| Linux x64 (APPIMAGE) | [dental-ark-0.1.3-linux-x64.AppImage](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.3/dental-ark-0.1.3-linux-x64.AppImage) | Portable Linux desktop package |
+| Linux x64 (DEB) | [dental-ark-0.1.3-linux-x64.deb](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.3/dental-ark-0.1.3-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
+| Linux x64 (RPM) | [dental-ark-0.1.3-linux-x64.rpm](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.3/dental-ark-0.1.3-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
+| Windows x64 | [dental-ark-0.1.3-windows-x64-setup.exe](https://github.com/hannes-wan/dental-ark-official/releases/download/v0.1.3/dental-ark-0.1.3-windows-x64-setup.exe) | Guided Windows installer |
 
 Checksums, installation notes, and the complete platform matrix live on the [official download page](https://hannes-software.com/dental-ark/download/).
 
+## System requirements
+
+- **Windows:** Windows 10 or Windows 11 on x64.
+- **Linux:** a mainstream x64 distribution with glibc 2.35 or newer, such as Ubuntu 22.04+, Debian 12+, Fedora, or openSUSE (AppImage, DEB, and RPM packages).
+- **Disk space:** a few hundred megabytes free for the application and its bundled resources.
+
 ## Why Dental Ark exists
 
-ABC and similar platforms charge monthly, require internet, and lock your patient data on someone else's server. Dental Ark puts the clinic's patient records, appointments, billing, and images on your own computer — where you control them, back them up, and never pay a monthly fee.
+Cloud dental platforms charge monthly, require internet, and lock your patient data on someone else's server. Dental Ark puts the clinic's patient records, appointments, billing, and images on your own computer — where you control them and back them up, with no subscription required.
 
 > **Edition boundary:** The technical sections below describe the complete product surface and can include optional licensed workflows. The exact free Community Edition scope is listed separately below.
 
@@ -46,9 +52,10 @@ Document every visit with tooth-level detail. Mark conditions per tooth, attach 
 
 Create itemized bills, record payments (cash, card, transfer), track unpaid balances, and export billing summaries. No percentage fees on transactions — you keep what you charge.
 
-### One price. Forever.
+### No accounts. No renewals.
 
-- Apple or Microsoft handles purchase and restore. There are no per-user fees, annual renewals, accounts, or activation codes.
+- The Community Edition is free. Optional licensed capabilities add advanced workflows; see the product page for current access details. Not per month, not per year.
+- There are no accounts, renewals, or activation codes.
 
 ### Works offline. Always.
 
@@ -126,7 +133,7 @@ Dental Ark is a desktop workflow. Your working files stay on the machine unless 
 
 - [Backup and Restore](https://hannes-software.com/dental-ark/help/backup-guide/)
 - [Billing and Payments](https://hannes-software.com/dental-ark/help/billing-guide/)
-- [getting started](https://hannes-software.com/dental-ark/help/getting-started/)
+- [Getting started](https://hannes-software.com/dental-ark/help/getting-started/)
 - [Quickstart: "Set Up Your Clinic"](https://hannes-software.com/dental-ark/help/quickstart/)
 - [Daily Clinic Workflows](https://hannes-software.com/dental-ark/help/workflows/)
 
@@ -154,6 +161,13 @@ No. Dental Ark is an administrative tool for patient records, appointments, bill
 </details>
 
 <details>
+<summary><strong>What happens if I don't renew? Does my data get locked?</strong></summary>
+
+There is no renewal. The Community Edition is free. Optional licensed capabilities add advanced workflows; see the product page for current access details. Your data remains in local SQLite and image files on your computer even if you uninstall the software.
+
+</details>
+
+<details>
 <summary><strong>How do I back up my patient data?</strong></summary>
 
 Settings → Backup → Create Backup generates a complete zip file with your database, images, configuration, and manifest. Copy this file to an external drive, USB stick, or network location. Restore from any backup file on any computer.
@@ -164,13 +178,6 @@ Settings → Backup → Create Backup generates a complete zip file with your da
 <summary><strong>Can I export my patient records if I switch to another system?</strong></summary>
 
 Yes. Patient records can be exported as PDF. Billing data can be exported as CSV. There is no vendor lock-in — your data is in standard formats on your computer.
-
-</details>
-
-<details>
-<summary><strong>How does Dental Ark compare to cloud dental systems like ABC?</strong></summary>
-
-The Community edition is free, while the competing service uses a paid subscription; consult the vendor for current terms. Dental Ark does not include AI features or online patient booking.
 
 </details>
 
