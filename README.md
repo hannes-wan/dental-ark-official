@@ -52,10 +52,11 @@ Document every visit with tooth-level detail. Mark conditions per tooth, attach 
 
 Create itemized bills, record payments (cash, card, transfer), track unpaid balances, and export billing summaries. No percentage fees on transactions — you keep what you charge.
 
-### No accounts. No renewals.
+### Free Community Edition. Optional permanent unlock.
 
-- The Community Edition is free. Optional licensed capabilities add advanced workflows; see the product page for current access details. Not per month, not per year.
+- Start with the free Community Edition for up to 50 patients, 200 visits, 200 appointments, and 100 images. Optional licensed capabilities add advanced workflows.
 - There are no accounts, renewals, or activation codes.
+- Cloud dental systems typically use recurring subscriptions. Dental Ark keeps the clinic workflow local; optional advanced features use a permanent in-app unlock under the current store terms.
 
 ### Works offline. Always.
 
@@ -133,7 +134,7 @@ Dental Ark is a desktop workflow. Your working files stay on the machine unless 
 
 - [Backup and Restore](https://hannes-software.com/dental-ark/help/backup-guide/)
 - [Billing and Payments](https://hannes-software.com/dental-ark/help/billing-guide/)
-- [Getting started](https://hannes-software.com/dental-ark/help/getting-started/)
+- [Dental Ark getting started: prove the first workflow before using live data](https://hannes-software.com/dental-ark/help/getting-started/)
 - [Quickstart: "Set Up Your Clinic"](https://hannes-software.com/dental-ark/help/quickstart/)
 - [Daily Clinic Workflows](https://hannes-software.com/dental-ark/help/workflows/)
 
@@ -163,7 +164,7 @@ No. Dental Ark is an administrative tool for patient records, appointments, bill
 <details>
 <summary><strong>What happens if I don't renew? Does my data get locked?</strong></summary>
 
-There is no renewal. The Community Edition is free. Optional licensed capabilities add advanced workflows; see the product page for current access details. Your data remains in local SQLite and image files on your computer even if you uninstall the software.
+There is no subscription to renew. The Community Edition remains free, and any optional paid unlock is permanent. Your data remains in local SQLite and image files on your computer even if you uninstall the software.
 
 </details>
 
